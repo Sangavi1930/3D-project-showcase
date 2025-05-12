@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Product Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>3D Product Showcase</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="showcase">
+                <div class="product-card">
+                    <div class="product-3d">
+                        <div class="product-front">
+                            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" 
+                                alt="Premium Headphones Front View"
+                                loading="eager"
+                                fetchpriority="high"
+                                decoding="async">
+                        </div>
+                        <div class="product-back">
+                            <img src="https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D" 
+                                alt="Premium Headphones Back View"
+                                loading="lazy"
+                                decoding="async">
+                        </div>
+                        <div class="product-left">
+                            <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D" 
+                                alt="Premium Headphones Left View"
+                                loading="lazy"
+                                decoding="async">
+                        </div>
+                        <div class="product-right">
+                            <img src="https://images.unsplash.com/photo-1545127398-14699f92334b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D" 
+                                alt="Premium Headphones Right View"
+                                loading="lazy"
+                                decoding="async">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h2>Premium Headphones</h2>
+                        <p class="price">₹24,999</p>
+                        <p class="description">Experience crystal clear sound with our premium wireless headphones. Features noise cancellation and 30-hour battery life.</p>
+                        <div class="product-specs">
+                            <p><i class="fas fa-check"></i> Active Noise Cancellation</p>
+                            <p><i class="fas fa-check"></i> 30-hour Battery Life</p>
+                            <p><i class="fas fa-check"></i> Premium Sound Quality</p>
+                            <p><i class="fas fa-check"></i> Comfortable Design</p>
+                        </div>
+                        <button class="buy-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <button class="control-btn" data-direction="left">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <button class="control-btn" data-direction="right">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </section>
+
+            <section class="features">
+                <div class="feature">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Fast Shipping</h3>
+                    <p>Free shipping on all orders</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-undo"></i>
+                    <h3>Easy Returns</h3>
+                    <p>30-day return policy</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Secure Payment</h3>
+                    <p>100% secure checkout</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 3D Product Showcase. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
